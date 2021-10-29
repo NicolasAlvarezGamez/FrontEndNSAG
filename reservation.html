@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESERVAS ✈️</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/reservationFunctions.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/jpg" href="https://hotelpierososua.com/wp-content/uploads/2016/10/ocha_infrastructure-hotel_flat-circle-white-on-ios-orange-gradient_512x512.png"/>
+</head>
+<body>
+    
+    <header>
+        <a class="logo" href="/"><img class="logo" src="https://wikiimg.tojsiabtv.com/wikipedia/commons/thumb/1/17/The_Leading_Hotels_of_the_World_logo.svg/1200px-The_Leading_Hotels_of_the_World_logo.svg.png" alt="logo"></a>
+    </header>
+
+    <main>
+        <br><br><br><br><br><br><br>
+        <h1>RESERVAS</h1>
+        <br><br><br><br><br>
+        <div class="infoinput">
+            <input type="number" id="idReservation" class="Txt" placeholder="ID">
+            <input type="text" id="startDate" class="Txt" placeholder="FECHA SALIDA">
+            <input type="text" id="devolutionDate" class="Txt" placeholder="FECHA REGRESO">
+            <input type="text" id="status" class="Txt" placeholder="ESTADO">
+            <input type="text" id="score" class="finalTxt" placeholder="PUNTAJE">
+        </div>
+        <ul class="clientOptions">
+            <li><button class= "botonx" onclick="saveReservationInfo()">Guardar</button></li>
+            <li><button class= "botonx" onclick="getReservationInfo()">Consultar</button></li>
+            <li><button class= "botonx" onclick="editReservation()">Actualizar</button></li>
+        </ul>
+        <br><br><br><br>
+        <button class= "botonz" id="resultado"></button>
+
+    </main>
+    <br><br><br>
+    <footer class="Footer">
+        <p class="nombref"> <b>Nicolás Álvarez Gámez &copy;</b> </p>
+        <p class="correof"> <b>nicolas.alvarez.mt@correo.usa.edu.co</b> </p>
+    </footer>
+</body>
+
+</html>

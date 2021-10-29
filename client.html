@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLIENTE 🚹</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/clientFunctions.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <a class="logo" href="/"><img class="logo"
+                src="https://wikiimg.tojsiabtv.com/wikipedia/commons/thumb/1/17/The_Leading_Hotels_of_the_World_logo.svg/1200px-The_Leading_Hotels_of_the_World_logo.svg.png"
+                alt="logo"></a>
+    </header>
+
+    <main>
+        <br><br><br><br><br><br><br>
+        <h1>CLIENTES</h1>
+        <br><br><br><br><br>
+        <div class="infoinput">
+            <input type="number" class="Txt" id="idClient" placeholder="ID">
+            <input type="text" class="Txt" id="name" placeholder="NOMBRE">
+            <input type="text" class="Txt" id="email"  placeholder="EMAIL">
+            <input type="number" class="finalTxt" id="age"  placeholder="EDAD">
+        </div>
+        <ul class="clientOptions">
+            <li><button class= "botonx" onclick="saveClientInfo()">Guardar</button></li>
+            <li><button class= "botonx" onclick="getClientInfo()">Consultar</button></li>
+            <li><button class= "botonx" onclick="clientEdit()">Actualizar</button></li>
+        </ul>
+        <br><br><br><br>
+        <button class= "botonz" id="resultado"></button>
+    </main>
+    <br><br><br>
+    <footer class="Footer"> 
+        <p class="nombref"> <b>Nicolás Álvarez Gámez &copy;</b> </p>
+        <p class="correof"> <b>nicolas.alvarez.mt@correo.usa.edu.co</b> </p>
+    </footer>
+</body>
+
+</html>
